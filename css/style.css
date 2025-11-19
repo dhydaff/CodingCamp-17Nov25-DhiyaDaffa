@@ -50,5 +50,5 @@ nav a {
     color: #000;
     font-size: 14px;
 
-    border-radius: 3px; /* jika ingin benar-benar kotak → ubah menjadi 0 */
+    border-radius: 3px; 
 }

@@ -11,16 +11,64 @@
     <!-- HEADER -->
     <header>
         <div class="logo">
-            <img src="log.png" alt="logo">
+            <img src="d.png" alt="logo">
         </div>
 
         <nav>
             <a href="#">Home</a>
-            <a href="#">Our Profile</a>
-            <a href="#">Portofolio</a>
+            <a href="#">Profile</a>
             <a href="#">Message Us</a>
         </nav>
     </header>
+
+    <!-- HOME -->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Hi <span id="userName"></span>, Welcome To My Website</h1>
+            <p>Ini adalah website Portofolio</p>
+        </div>
+    </section>
+
+    <!-- PROFILE -->
+    <section class="profile" id="profile">
+    <h2>Our Profile</h2>
+    <p>Kami adalah tim kreatif yang berfokus pada pengembangan solusi digital yang simple, efisien, dan mudah digunakan. Dengan pendekatan modern dan sentuhan desain yang elegan, kami menghadirkan layanan yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman yang menyenangkan bagi pengguna.</p>
+    <h3>SMART SOLUTIONS FOR A SMARTER FUTURE</h3>
+    </section>
+
+    <!-- SECTION MESSAGE US -->
+    <section class="message" id="message-us">
+        <h2>Message Us</h2>
+
+        <div class="msg-container">
+            
+            <!-- FORM INPUT -->
+            <form id="msgForm">
+                <label>Full Name</label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+
+                <label>Email</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+
+                <label>Phone Number</label>
+                <input type="text" id="phone" placeholder="Enter your phone number" required>
+
+                <label>Message</label>
+                <textarea id="messageInput" placeholder="Write your message here" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- OUTPUT HASIL -->
+            <div class="msg-output">
+                <h3>Your Message</h3>
+                <p><strong>Name:</strong> <span id="outName">-</span></p>
+                <p><strong>Email:</strong> <span id="outEmail">-</span></p>
+                <p><strong>Phone:</strong> <span id="outPhone">-</span></p>
+                <p><strong>Message:</strong> <span id="outMessage">-</span></p>
+            </div>
+        </div>
+    </section>
 
     <script src="js/script.js"></script>
 </body>
